@@ -1,0 +1,100 @@
+{
+  "info": {
+    "_postman_id": "6a651d96-615d-4c7f-b244-20edb8db9e63",
+    "name": "MetroBank Account Services",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33683140"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080/api/v1/account/123456789",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/v1/account/123456789",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "account",
+            "123456789"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/v1/account",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"customerName\": \"Shiela\",\r\n  \"customerMobile\": \"09081234567\",\r\n  \"customerEmail\": \"shiela.acido@gmail.com\",\r\n  \"address1\": \"Test\",\r\n  \"address2\": \"test\",\r\n  \"accountType\": \"S\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/account",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "account"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/v1/account",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"customerName\": \"Shiela\",\r\n  \"customerMobile\": \"09081234567\",\r\n  \"customerEmail\": \"shiela.acido@gmail.com\",\r\n  \"address1\": \"Test\",\r\n  \"address2\": \"test\",\r\n  \"accountType\": \"S\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/account",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "account"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
